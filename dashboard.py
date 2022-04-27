@@ -21,7 +21,7 @@ st.subheader("By: Zachary Chin")
 st.write("LINKS TO REPORT AND CODE")
 
 # importing the data set
-avo = pd.read_csv("/work/avocado.csv")
+avo = pd.read_csv("/work/MA346FinalProject/avocado.csv")
 
 # converting date to datetime and renaming the first column
 avo["Date"] = pd.to_datetime(avo["Date"])
