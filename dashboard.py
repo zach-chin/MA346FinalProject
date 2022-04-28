@@ -18,8 +18,8 @@ from statsmodels.tsa.stattools import adfuller
 ### title
 st.title("Predicting Future Prices of Avocados")
 st.subheader("By: Zachary Chin")
-st.write("The code for this is here: https://deepnote.com/workspace/zachary-chin-3a91ccbe-30b7-48a6-a228-30f112320013/project/MA346-Final-Project-a9287e1c-6bc1-4264-baea-d2d6d56ccf53/%2FMA346FinalProject%2FExploration.ipynb")
-st.write("The report for this is here: https://deepnote.com/workspace/zachary-chin-3a91ccbe-30b7-48a6-a228-30f112320013/project/MA346-Final-Project-a9287e1c-6bc1-4264-baea-d2d6d56ccf53/%2FMA346FinalProject%2FFinalReport.ipynb")
+st.write("The code for this is here: [Code](https://deepnote.com/workspace/zachary-chin-3a91ccbe-30b7-48a6-a228-30f112320013/project/MA346-Final-Project-a9287e1c-6bc1-4264-baea-d2d6d56ccf53/%2FMA346FinalProject%2FExploration.ipynb)")
+st.write("The report for this is here: [Report](https://deepnote.com/workspace/zachary-chin-3a91ccbe-30b7-48a6-a228-30f112320013/project/MA346-Final-Project-a9287e1c-6bc1-4264-baea-d2d6d56ccf53/%2FMA346FinalProject%2FFinal_Report.ipynb)")
 
 # importing the data set
 avo = pd.read_csv("avocado.csv")
